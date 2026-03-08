@@ -110,6 +110,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
+- **[LynxPrompt](https://github.com/GeiserX/LynxPrompt):** Self-hostable AI config management platform for teams. Manages AGENTS.md, CLAUDE.md, .cursor/rules/, slash commands, and 30+ formats. Next.js, PostgreSQL, GPL-3.0.
 
 ## 🤝 Contributing
 
