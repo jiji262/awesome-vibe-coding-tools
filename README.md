@@ -110,6 +110,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
+- **[BurnRate](https://getburnrate.io/):** AI coding cost analytics CLI tracking usage and costs across 7 providers (Claude Code, Cursor, Copilot, Windsurf, Aider, Cline, Codex). Features real-time dashboard, 46 optimization rules, and rate limit monitoring.
 
 ## 🤝 Contributing
 
