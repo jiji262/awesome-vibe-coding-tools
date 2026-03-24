@@ -151,6 +151,7 @@
 ## 🤖 Multi-Agent Orchestration & Collaboration
 
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code):** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor, and beyond.
+- **[alltuner/factoryfloor](https://github.com/alltuner/factoryfloor):** Native macOS workspace for running multiple coding agents in parallel. Each workstream gets its own git worktree, Claude Code terminal (GPU-rendered via Ghostty), and embedded browser with automatic port detection. Keyboard-first, zero config.
 - **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents):** A complete AI agency at your fingertips, from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers, with specialized experts, processes, and deliverables.
 - **[wshobson/agents](https://github.com/wshobson/agents):** Intelligent automation and multi-agent orchestration for Claude Code.
 - **[paperclipai/paperclip](https://github.com/paperclipai/paperclip):** Open-source orchestration for zero-human companies.
