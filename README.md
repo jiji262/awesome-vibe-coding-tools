@@ -163,6 +163,7 @@
 - **[avivl/claude-007-agents](https://github.com/avivl/claude-007-agents):** A unified AI agent orchestration system featuring dozens of specialized agents across 14 categories for modern software development.
 - **[N1nEmAn/acca](https://github.com/N1nEmAn/acca):** A multi-AI collaborative workflow system that lets Antigravity orchestrate Claude CLI and Codex CLI together.
 - **[williamnie/aegisFlow](https://github.com/williamnie/aegisFlow):** A multi-agent workflow that turns an idea into a full PRD and technical design, then orchestrates local toolchains to build it.
+- **[chernistry/bernstein](https://github.com/chernistry/bernstein):** Parallel multi-agent orchestrator — one command spawns Claude Code, Codex CLI, and Gemini CLI in isolated git worktrees, verifies output with tests, and auto-commits passing results. Zero LLM tokens on coordination. Provider-agnostic.
 
 <a id="task-memory-workspace"></a>
 ## 🗂️ Task, Memory & Workspace Management
