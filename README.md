@@ -129,6 +129,7 @@
 - **[alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim):** Slimmed, cleaned, and fine-tuned oh-my-opencode fork that consumes much less tokens.
 - **[agent-sh/agentsys](https://github.com/agent-sh/agentsys):** A system for Claude Code, OpenCode, Codex, Cursor, and Kiro that automates everything around AI coding with plugins, agents, and skills.
 - **[zhukunpenglinyutong/ai-max](https://github.com/zhukunpenglinyutong/ai-max):** A one-click upgrade pack for Claude Code with production-grade agents, skills, hooks, commands, rules, and MCP configuration.
+- **[krabat-l/claude-dash](https://github.com/krabat-l/claude-dash):** Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status. Zero dependencies.
 
 <a id="workflow-systems"></a>
 ## 🧠 Workflow Systems & Spec-Driven Development
