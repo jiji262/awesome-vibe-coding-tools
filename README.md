@@ -117,6 +117,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
+- **[BGPT MCP](https://github.com/connerlambden/bgpt-mcp):** Hosted MCP server for searching scientific papers with full-text experimental data. SSE + Streamable HTTP endpoints, 50 free searches, no API key needed.
 
 
 <a id="cli-workflow-systems"></a>
