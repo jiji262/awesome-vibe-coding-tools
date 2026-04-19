@@ -42,6 +42,8 @@
 
 ## 💻 Terminal-Based AI Agents
 
+- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 - **[Claude Code](https://claude.ai/code):** Full-codebase awareness, agentic edit/test/PR flow in terminal. Suitable for highly automated project workflows.
 - **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** Google command-line flagship, 1M context, multimodal chat and robust Shell scripting automation.
 - **[Aider](https://aider.chat/):** Terminal Git-integrated pair programmer, high Swe-bench scores, focused on patching and smart code navigation.
