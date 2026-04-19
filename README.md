@@ -26,6 +26,8 @@
 
 ## 🚀 AI-Enhanced IDEs & Editors
 
+- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 - **[Cursor](https://cursor.com/):** AI-first coding editor (VS Code fork) with intelligent completion, agentic refactoring, and support for multiple LLMs. Enables conversational code navigation and "code-aware" context for accurate suggestions. Suited for deep AI integration and full-project workflows.
 - **[Windsurf](https://windsurf.codeium.com/):** Multi-IDE support from Codeium, with "Cascade Flow" agents for multi-step automation, live preview for UI, and robust team collaboration. Especially useful for fast prototyping, but often loses context in large projects.
 - **[Kiro](https://kiro.dev/):** AWS experimental IDE with spec-driven scaffolding for microservices and cloud-native solutions, making end-to-end development and deployment frictionless.
@@ -42,8 +44,6 @@
 
 ## 💻 Terminal-Based AI Agents
 
-- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
-- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 - **[Claude Code](https://claude.ai/code):** Full-codebase awareness, agentic edit/test/PR flow in terminal. Suitable for highly automated project workflows.
 - **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** Google command-line flagship, 1M context, multimodal chat and robust Shell scripting automation.
 - **[Aider](https://aider.chat/):** Terminal Git-integrated pair programmer, high Swe-bench scores, focused on patching and smart code navigation.
