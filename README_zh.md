@@ -111,6 +111,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** 代码补全加安全扫描一体化。
 - **[ColDeco](https://coldeco.ai/):** 可视化 AI 生成的代码检查和审查。
 - **[IntelliDev](https://intellidev.ai/):** ML 驱动的终端工作流助手，用于开发/日志/任务。
+- **[agenttrace](https://github.com/luoyuctl/agenttrace):** 本地 TUI，用于查看 AI 编码智能体会话日志、用量、成本、延迟、工具失败、diff 和 CI 门禁。
 
 
 <a id="cli-workflow-systems"></a>
