@@ -117,6 +117,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
+- **[Vibe Coding Profiler](https://www.vibe-coding-profiler.com/):** Git history analyzer that reveals your AI-assisted engineering style and vibe coding persona.
 
 
 <a id="cli-workflow-systems"></a>
