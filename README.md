@@ -126,6 +126,7 @@
 - **[code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent):** OMO, the best agent harness (formerly oh-my-opencode), providing async subagents, curated tools, and a stronger agent experience for OpenCode and related coding agents.
 - **[UfoMiao/zcf](https://github.com/UfoMiao/zcf):** Zero-Config Code Flow for Claude Code and Codex.
 - **[Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex):** OmX, power tools for OpenAI Codex CLI with hooks, agent teams, HUDs, and more.
+- **[Ducksss/codex-profiles](https://github.com/Ducksss/codex-profiles):** Small Bash helper for switching Codex CLI/Desktop accounts with isolated `CODEX_HOME` profiles.
 - **[alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim):** Slimmed, cleaned, and fine-tuned oh-my-opencode fork that consumes much less tokens.
 - **[agent-sh/agentsys](https://github.com/agent-sh/agentsys):** A system for Claude Code, OpenCode, Codex, Cursor, and Kiro that automates everything around AI coding with plugins, agents, and skills.
 - **[zhukunpenglinyutong/ai-max](https://github.com/zhukunpenglinyutong/ai-max):** A one-click upgrade pack for Claude Code with production-grade agents, skills, hooks, commands, rules, and MCP configuration.
