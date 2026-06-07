@@ -198,6 +198,7 @@
 - **[breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio):** A visual workflow editor for AI agents with natural-language editing, export, and run support.
 - **[Stitch](https://stitch.withgoogle.com/):** Google Labs' AI-native UI design canvas that turns natural language into high-fidelity interfaces. Supports rapid iteration, critique, and export toward downstream developer tools.
 - **[OleynikAleksandr/antigravity-subagents](https://github.com/OleynikAleksandr/antigravity-subagents):** Infrastructure that enables Antigravity IDE to utilize specialized sub-agents.
+- **[Unship](https://github.com/mbenhard/unship):** Open-source local picker for comparing AI agent-made UI variants in a real app, then keeping one and cleaning up the rest. Works with Claude Code, Codex, OpenCode, Cursor, and other coding agents.
 
 <a id="historical-workflow-references"></a>
 ## 🕰️ Historical / Unavailable Workflow References
