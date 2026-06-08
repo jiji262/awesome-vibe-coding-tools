@@ -124,6 +124,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz):** Trust scoring MCP server for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Zero-install: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 
 <a id="cli-workflow-systems"></a>
