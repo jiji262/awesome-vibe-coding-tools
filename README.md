@@ -192,6 +192,8 @@
 - **[feiskyer/claude-code-settings](https://github.com/feiskyer/claude-code-settings):** Claude Code settings, commands, and agents for vibe coding.
 - **[quboqin/template-agenticide-vibecoding](https://github.com/quboqin/template-agenticide-vibecoding):** A customized Claude Code R&D workflow system and AI team collaboration framework based on spec-driven and test-driven development.
 
+- **[Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop):** Local-first Loop Engineering skill for writing verifiable agent-loop specs, handoff packets, verifier gates, rollback rules, and JSON reports for Codex, Claude Code, OpenClaw, and other coding agents.
+
 <a id="visual-workflow-tooling"></a>
 ## 🛠️ Visual Workflow Tooling
 
