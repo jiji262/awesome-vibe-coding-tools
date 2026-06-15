@@ -129,6 +129,7 @@
 <a id="cli-workflow-systems"></a>
 ## 🧰 CLI Workflow Systems & Agent Enhancers
 
+- **[Agent FM](https://github.com/agentfm-ai/agent-fm):** Local, open-source macOS app for listening to Claude Code and Codex agents as they work, with Global Mix, blocker alerts, and BYOK narration.
 - **[anomalyco/opencode](https://github.com/anomalyco/opencode):** The open source coding agent.
 - **[code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent):** OMO, the best agent harness (formerly oh-my-opencode), providing async subagents, curated tools, and a stronger agent experience for OpenCode and related coding agents.
 - **[UfoMiao/zcf](https://github.com/UfoMiao/zcf):** Zero-Config Code Flow for Claude Code and Codex.
