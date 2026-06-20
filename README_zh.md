@@ -129,6 +129,9 @@
 - **[Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)：** OmX，为 OpenAI Codex CLI 提供 hooks、智能体团队、HUD 等增强能力。
 - **[alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim)：** oh-my-opencode 的精简、清理与微调版本，显著降低 token 消耗。
 - **[agent-sh/agentsys](https://github.com/agent-sh/agentsys)：** 面向 Claude Code、OpenCode、Codex、Cursor、Kiro 的自动化系统，用插件、agents 与 skills 自动化 AI 编码周边工作。
+- **[ax](https://github.com/Necmttn/ax)：** 面向 Claude Code、Codex、
+  Cursor、OpenCode 和 Pi 的本地遥测与召回图谱，通过 CLI、仪表盘和
+  MCP server 查看会话、工具调用、skills、成本与 OTLP 数据。
 - **[zhukunpenglinyutong/ai-max](https://github.com/zhukunpenglinyutong/ai-max)：** 一键提升 Claude Code“智商”的增强套件，包含生产级 agents、skills、hooks、commands、rules 与 MCP 配置。
 
 <a id="workflow-systems"></a>
