@@ -39,7 +39,7 @@
 - **[Crystal (Claude Code Manager)](https://github.com/stravu/crystal):** Multi-session agent manager, Git worktree integration, Diff/merge viewer. Perfect for multi-solution prototyping.
 - **[Void](https://voideditor.com/):** Open-source Cursor alternative, checkpoint visualization, agentic AI with any model/local hosting, privacy-focused for enterprise use.
 - **[IntelliJ IDEA AI](https://www.jetbrains.com/idea/):** Enterprise mainstream Java IDE with native AI completion, code navigation for massive projects.
-
+- **[Nimbalyst](https://github.com/nimbalyst/nimbalyst):** Open-source visual workspace for building with Codex, Claude Code, and more; manage your agents, edit the work visually, and track tasks.
 
 ## 💻 Terminal-Based AI Agents
 
