@@ -93,6 +93,7 @@
 - **[CodeWP](https://codewp.ai/):** AI site builder for WordPress, end-to-end generation and deployment.
 - **[Figma Make](https://www.figma.com/):** Figma's AI-powered feature that creates functional prototypes and web apps from natural language prompts. Automatically generates frontend and backend code with Supabase integration for backend services.
 - **[Base44](https://base44.com/):** AI-powered no-code platform for building web and mobile apps through natural language conversations. Features built-in database, authentication, storage, analytics, and email functionality with seamless external service integration.
+- **[Primio](https://primio.dev/):** Chat-based builder that turns prompts into full Flutter apps for mobile and web, with live preview, an in-browser emulator, and one-click publishing to the app stores.
 - **[Conductor](https://conductor.build/):** AI-powered development platform with automated code generation, error fixing, and batch refactoring capabilities. Integrates with GitHub, GitLab, AWS CodeCommit, Azure DevOps, and BitBucket for streamlined workflows.
 - **[Aura](https://www.aura.build/):** AI-enhanced development platform offering real-time collaboration, intelligent code analysis, and automated optimization for building high-performance applications.
 - **[Verdent](https://www.verdent.ai/):** Cloud-based AI development platform focused on sustainable and efficient application development with AI-driven code reviews and performance optimization.
