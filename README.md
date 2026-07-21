@@ -191,6 +191,7 @@
 - **[OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows):** Battle-tested workflows and configurations distilled from heavy Claude Code usage in an AI-native startup context.
 - **[feiskyer/claude-code-settings](https://github.com/feiskyer/claude-code-settings):** Claude Code settings, commands, and agents for vibe coding.
 - **[quboqin/template-agenticide-vibecoding](https://github.com/quboqin/template-agenticide-vibecoding):** A customized Claude Code R&D workflow system and AI team collaboration framework based on spec-driven and test-driven development.
+- **[UIZZE](https://uizze.com):** Reference-first UI skill and hosted MCP for Codex, Claude Code, and Cursor, using 800,000+ real web and iOS screens, design contracts, and finish-gate reviews.
 
 <a id="visual-workflow-tooling"></a>
 ## 🛠️ Visual Workflow Tooling
