@@ -124,6 +124,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
+- **[agenttrace](https://github.com/luoyuctl/agenttrace):** Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 
 
 <a id="cli-workflow-systems"></a>
