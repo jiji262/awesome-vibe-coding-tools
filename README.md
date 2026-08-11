@@ -153,6 +153,7 @@
 - **[papaoloba/spec-based-claude-code](https://github.com/papaoloba/spec-based-claude-code):** Implementation of a Spec-Driven Development workflow in Claude Code using custom slash commands.
 - **[pdoronila/cc-sdd](https://github.com/pdoronila/cc-sdd):** Spec Driven Development Workflow inside Claude Code.
 - **[kellemar/claude-code-specs-generator](https://github.com/kellemar/claude-code-specs-generator):** A documentation and context management system inspired by Amazon's Kiro IDE that generates structured specification documents for Claude Code.
+- **[vibeprompt](https://vibeprompt.tech):** Free 10-step vibe coding workflow (Idea → Plan → Build → Test → Ship → Launch → Iterate) with 56 copy-paste prompts, 17 deep-dive articles, 46 field-tested fixes for common AI-coding failures, and an interactive AGENTS.md + PRD generator. Open source, MIT.
 
 <a id="multi-agent-orchestration"></a>
 ## 🤖 Multi-Agent Orchestration & Collaboration
