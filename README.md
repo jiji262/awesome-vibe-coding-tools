@@ -120,6 +120,7 @@
 - **[Umami](https://umami.is/):** AI-driven frontend optimization/performance analytics.
 - **[TraceRoot AI](https://traceroot.ai/):** Bug location & patch suggestion, automatic root cause.
 - **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** Stable Chrome DevTools MCP server, CLI, and agent skills that let coding agents inspect live browser state, debug runtime issues, emulate users, and run Lighthouse audits before shipping.
+- **[Agent QA](https://github.com/vostride/agent-qa):** Source-available CLI and MCP tool for natural-language web and mobile application tests, with execution memory and UI adaptation. Licensed under FSL-1.1-ALv2, with each release converting to Apache-2.0 after two years.
 - **[Blitz](https://blitzjs.com/):** Native Next.js AI plugin for rapid frontend dev.
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
