@@ -114,6 +114,7 @@
 - **[Umami](https://umami.is/):** AI 驱动的前端优化/性能分析。
 - **[TraceRoot AI](https://traceroot.ai/):** 错误定位和补丁建议，自动根因分析。
 - **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** 稳定版 Chrome DevTools MCP server、CLI 和 agent skills，让 coding agents 检查真实浏览器状态、调试运行时问题、模拟用户，并在发布前运行 Lighthouse 审计。
+- **[Agent QA](https://github.com/vostride/agent-qa)：** 面向自然语言 Web 与移动应用测试的源码可用 CLI 和 MCP 工具，支持执行记忆与界面适配。采用 FSL-1.1-ALv2 许可证，每个版本发布两年后转换为 Apache-2.0。
 - **[Blitz](https://blitzjs.com/):** Next.js 原生 AI 插件，快速前端开发。
 - **[BlackBox AI](https://blackbox.ai/):** 代码补全加安全扫描一体化。
 - **[ColDeco](https://coldeco.ai/):** 可视化 AI 生成的代码检查和审查。
