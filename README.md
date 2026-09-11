@@ -87,6 +87,7 @@
 - **[v0 (Vercel)](https://v0.app/):** Natural language to React UI, built-in shadcn/ui, dead-simple frontend app prototyping.
 - **[Bolt.new (StackBlitz)](https://bolt.new/):** Full-stack app creation/deployment in-browser, leverages WebContainers, no local tooling required.
 - **[Lovable](https://lovable.dev/):** No-code builder for instant full-stack web apps from natural language.
+- **[Taskade Genesis](https://www.taskade.com/create):** One prompt → live app with projects, agents, and automations.
 - **[Replit AI Agent/Ghostwriter](https://replit.com/ai):** Browser IDE, multi-lingual coding, on-the-fly explanation and bug fixing, real-time collaboration.
 - **[Google AI Studio](https://aistudio.google.com/):** Google's prompt-to-production app builder powered by the Antigravity coding agent. Supports Firebase-backed apps, Workspace integrations, mobile idea capture, native Android app generation, Play test-track publishing, and export to Antigravity.
 - **[Knack](https://www.knack.com/):** Automated code/data-driven dev, optimized for speed/quality/team use cases.
