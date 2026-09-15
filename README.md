@@ -170,6 +170,7 @@
 - **[avivl/claude-007-agents](https://github.com/avivl/claude-007-agents):** A unified AI agent orchestration system featuring dozens of specialized agents across 14 categories for modern software development.
 - **[N1nEmAn/acca](https://github.com/N1nEmAn/acca):** A multi-AI collaborative workflow system that lets Antigravity orchestrate Claude CLI and Codex CLI together.
 - **[williamnie/aegisFlow](https://github.com/williamnie/aegisFlow):** A multi-agent workflow that turns an idea into a full PRD and technical design, then orchestrates local toolchains to build it.
+- **[MulmoTerminal](https://github.com/receptron/mulmoterminal):** Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY with a colour-coded status, tmux-backed persistence, and a git worktree per cell.
 
 <a id="task-memory-workspace"></a>
 ## 🗂️ Task, Memory & Workspace Management
