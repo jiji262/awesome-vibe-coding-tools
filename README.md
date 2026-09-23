@@ -115,6 +115,8 @@
 
 ## 🔧 Specialized Tools
 
+- **[NextReset](https://nextreset.ai/):** Independent, source-linked public Codex reset history and official AI service incident reference with a browser-local personal timer.
+
 - **[RepoPrompt](https://github.com/repo-prompt/repo-prompt):** Mac-native AI file/code management and iteration, perfect for version organization.
 - **[DeepCode (Snyk)](https://snyk.io/product/deepcode-ai/):** AI fast code security analysis and actionable fix recommendations.
 - **[Umami](https://umami.is/):** AI-driven frontend optimization/performance analytics.
