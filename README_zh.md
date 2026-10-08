@@ -173,6 +173,7 @@
 - **[steveyegge/beads](https://github.com/steveyegge/beads)：** 为编码代理提供记忆增强。
 - **[steveyegge/gastown](https://github.com/steveyegge/gastown)：** Gas Town：多智能体工作区管理器。
 - **[snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks)：** 一个用于管理 AI 开发智能体的简洁任务管理系统。
+- **[Tale](https://tale.dev)：** 可自托管的项目工作空间，将任务、共享知识与 Claude Code、Codex 等编程智能体结合，并提供可供审核的报告和交付物。
 
 <a id="skills-context-packs"></a>
 ## 🧩 Skills、上下文工程与 Agent 套件

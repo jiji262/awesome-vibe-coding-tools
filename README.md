@@ -179,6 +179,7 @@
 - **[steveyegge/beads](https://github.com/steveyegge/beads):** A memory upgrade for your coding agent.
 - **[steveyegge/gastown](https://github.com/steveyegge/gastown):** Gas Town, a multi-agent workspace manager.
 - **[snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks):** A simple task management system for managing AI dev agents.
+- **[Tale](https://tale.dev):** Self-hosted project workspace that connects tasks and shared knowledge with coding agents such as Claude Code and Codex, with reports and deliverables for review.
 
 <a id="skills-context-packs"></a>
 ## 🧩 Skills, Context Engineering & Agent Packs
