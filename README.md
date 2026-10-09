@@ -96,6 +96,7 @@
 - **[Conductor](https://conductor.build/):** AI-powered development platform with automated code generation, error fixing, and batch refactoring capabilities. Integrates with GitHub, GitLab, AWS CodeCommit, Azure DevOps, and BitBucket for streamlined workflows.
 - **[Aura](https://www.aura.build/):** AI-enhanced development platform offering real-time collaboration, intelligent code analysis, and automated optimization for building high-performance applications.
 - **[Verdent](https://www.verdent.ai/):** Cloud-based AI development platform focused on sustainable and efficient application development with AI-driven code reviews and performance optimization.
+- **[Massvai](https://massvai.com/):** AI agent that builds full-stack Next.js apps from a prompt, with live preview, Supabase setup, GitHub sync and one-click Vercel deploy.
 
 
 ## 🏢 Enterprise & Platform Solutions
