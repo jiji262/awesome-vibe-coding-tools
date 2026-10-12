@@ -179,6 +179,7 @@
 - **[steveyegge/beads](https://github.com/steveyegge/beads):** A memory upgrade for your coding agent.
 - **[steveyegge/gastown](https://github.com/steveyegge/gastown):** Gas Town, a multi-agent workspace manager.
 - **[snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks):** A simple task management system for managing AI dev agents.
+- **[pungme/superagent-desktop](https://github.com/pungme/superagent-desktop):** macOS desktop workspace that runs Claude Code or Codex per project, each chat on its own git worktree, with a browser the agent drives on your own logins, a per-chat iOS Simulator, a board it maintains, and an iPhone companion for remote approvals. ([superagent.computer](https://superagent.computer))
 
 <a id="skills-context-packs"></a>
 ## 🧩 Skills, Context Engineering & Agent Packs
