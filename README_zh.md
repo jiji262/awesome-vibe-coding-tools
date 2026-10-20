@@ -173,6 +173,7 @@
 - **[steveyegge/beads](https://github.com/steveyegge/beads)：** 为编码代理提供记忆增强。
 - **[steveyegge/gastown](https://github.com/steveyegge/gastown)：** Gas Town：多智能体工作区管理器。
 - **[snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks)：** 一个用于管理 AI 开发智能体的简洁任务管理系统。
+- **[codealong/codealong](https://github.com/codealong/codealong)：** 适用于 macOS 和 Linux 的桌面应用，汇总本机所有 Claude Code、Codex、OpenCode、Antigravity 和 Cursor 会话，按仓库、Git 工作树和 PR 分组，可在浮动栏中批准命令和回复，并显示各账号的套餐用量。免费开源。（[codealong.com](https://www.codealong.com)）
 
 <a id="skills-context-packs"></a>
 ## 🧩 Skills、上下文工程与 Agent 套件

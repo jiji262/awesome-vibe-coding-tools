@@ -179,6 +179,7 @@
 - **[steveyegge/beads](https://github.com/steveyegge/beads):** A memory upgrade for your coding agent.
 - **[steveyegge/gastown](https://github.com/steveyegge/gastown):** Gas Town, a multi-agent workspace manager.
 - **[snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks):** A simple task management system for managing AI dev agents.
+- **[codealong/codealong](https://github.com/codealong/codealong):** Mac and Linux app that tracks every Claude Code, Codex, OpenCode, Antigravity and Cursor session on your machine, grouped by repo, worktree and PR, with a floating bar for approvals and replies and plan usage per account. Free and open source. ([codealong.com](https://www.codealong.com))
 
 <a id="skills-context-packs"></a>
 ## 🧩 Skills, Context Engineering & Agent Packs
