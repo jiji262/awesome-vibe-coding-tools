@@ -130,6 +130,7 @@
 - **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** Stable Chrome DevTools MCP server, CLI, and agent skills that let coding agents inspect live browser state, debug runtime issues, emulate users, and run Lighthouse audits before shipping.
 - **[agent-browser](https://github.com/vercel-labs/agent-browser):** Vercel Labs' browser automation CLI for AI agents, using accessibility snapshots and element references for navigation, form interaction, screenshots, and browser-based verification.
 - **[Playwright CLI](https://github.com/microsoft/playwright-cli):** Microsoft's browser automation CLI with coding-agent skills, named browser sessions, screenshots, and test-code generation for checking real application flows.
+- **[agent-qa](https://github.com/vostride/agent-qa):** Self-improving natural-language web, Android and iOS testing with advanced memidex memory, a CLI and MCP tools. Licensed under FSL-1.1-ALv2.
 - **[CodeRabbit](https://www.coderabbit.ai/):** AI pull-request reviewer that flags potential defects and offers code suggestions, with review controls for teams shipping agent-generated changes.
 - **[Greptile](https://www.greptile.com/):** AI code-review agent that indexes repository files, functions, and dependencies to assess pull requests beyond the changed lines and apply custom team context.
 - **[Blitz](https://blitzjs.com/):** Native Next.js AI plugin for rapid frontend dev.

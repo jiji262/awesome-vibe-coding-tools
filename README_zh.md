@@ -124,6 +124,7 @@
 - **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** 稳定版 Chrome DevTools MCP server、CLI 和 agent skills，让 coding agents 检查真实浏览器状态、调试运行时问题、模拟用户，并在发布前运行 Lighthouse 审计。
 - **[agent-browser](https://github.com/vercel-labs/agent-browser):** Vercel Labs 的 AI 智能体浏览器自动化 CLI，通过无障碍树快照和元素引用执行导航、表单操作、截图与浏览器验收。
 - **[Playwright CLI](https://github.com/microsoft/playwright-cli):** 微软的浏览器自动化 CLI，提供编程智能体 skills、具名浏览器会话、截图和测试代码生成，用于验证真实应用流程。
+- **[agent-qa](https://github.com/vostride/agent-qa)：** 支持自我改进的自然语言 Web、Android 与 iOS 测试工具，提供先进的 memidex 记忆引擎、CLI 和 MCP 工具。采用 FSL-1.1-ALv2 许可证。
 - **[CodeRabbit](https://www.coderabbit.ai/):** AI PR 审查工具，识别潜在缺陷并提供代码建议，通过团队审查控制辅助交付智能体生成的改动。
 - **[Greptile](https://www.greptile.com/):** AI 代码审查智能体，索引仓库文件、函数和依赖，结合变更行之外的代码与团队自定义上下文评估 PR。
 - **[Blitz](https://blitzjs.com/):** Next.js 原生 AI 插件，快速前端开发。
