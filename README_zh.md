@@ -6,6 +6,8 @@
 
 > 精心整理的 AI 编程插件、IDE、开发工具与 workflow 系统列表，通过人工智能提升编程效率。
 
+**调研更新：2026-10-25。** 近期阅读覆盖 2026 年 9 月 25 日至 10 月 25 日；工具补充也包括此前遗漏的项目。更新条目均核对官方文档与仓库。
+
 ## 📋 目录
 
 - [AI 增强型 IDE 和编辑器](#-ai-增强型-ide-和编辑器)
@@ -14,6 +16,7 @@
 - [在线开发平台](#-在线开发平台)
 - [企业级解决方案](#-企业级解决方案)
 - [专业工具](#-专业工具)
+- [Agent 工作台与远程控制](#agent-workbenches)
 - [CLI 工作流系统与增强套件](#cli-workflow-systems)
 - [工作流系统与规格驱动开发](#workflow-systems)
 - [多智能体编排与协作](#multi-agent-orchestration)
@@ -21,14 +24,15 @@
 - [Skills、上下文工程与 Agent 套件](#skills-context-packs)
 - [可视化工作流工具](#visual-workflow-tooling)
 - [历史 / 不可用工作流参考](#historical-workflow-references)
+- [近期文章与实践指南](#recent-reading)
 - [贡献指南](#-贡献指南)
 - [许可证](#-许可证)
 
 ## 🚀 AI 增强型 IDE 和编辑器
 
-- **[Cursor](https://cursor.com/):** AI 优先的代码编辑器与 agent 平台，支持代码感知聊天、Composer、云端/后台 agents、automations、Jira 委派、共享 canvases，以及用于本地长运行 agents 的 `/loop`。
+- **[Cursor](https://cursor.com/):** AI 编程编辑器与智能体平台，支持本地/云端 agents、自动化任务和云端智能体生成的交互式画布。主机保持在线时，可通过 iOS 应用查看和控制本地智能体；另提供 beta 版 Environments API。
 - **[Windsurf](https://windsurf.codeium.com/):** Codeium 的多 IDE 支持工具，具备"级联流"智能体多步骤自动化、UI 实时预览和强大的团队协作功能。特别适合快速原型开发，但在大项目中容易丢失上下文。
-- **[Kiro](https://kiro.dev/):** AWS 实验性 IDE，具备规范驱动的微服务和云原生解决方案脚手架，使端到端开发和部署变得顺畅。
+- **[Kiro](https://kiro.dev/):** AWS 的规格驱动 IDE，提供需求/设计/任务工作流、agent hooks 和需主动开启的本地命令沙箱。可选本地记忆在同一台机器的 IDE 与本地 V3 CLI 会话之间共享仓库约定和工作偏好。
 - **[Google Antigravity](https://antigravity.google/):** 谷歌的 agent-first development platform，包含 Antigravity 2.0 桌面端、CLI 和 SDK。可编排并行 agents、dynamic subagents、定时任务，并与 AI Studio、Android 和 Firebase 集成。
 - **[腾讯云 CodeBuddy](https://cloud.tencent.com/product/codebuddy):** AI 驱动的 IDE，用于自动化前端/后端/数据库生成，集成多种 LLM 选择和 Figma 转代码功能。
 - **[Trae](https://trae.ai/):** 字节跳动的自动化构建工具，同步 Figma 设计到代码，专门针对小团队的低代码原型开发。
@@ -36,21 +40,21 @@
 - **[通义灵码](https://tongyi.aliyun.com/lingma):** 阿里巴巴的旗舰代码助手，支持中英文、主要 IDE 和独立运行。
 - **[百度 Comate](https://comate.baidu.com/):** 多语言支持，50% 真实采用率，支持所有主要 IDE 和插件，端到端开发自动化。
 - **[Qoder](https://qoder.ai/):** 智能代码生成和编程助手，支持多种编程语言，提供代码补全、错误检测和智能重构功能。
-- **[Crystal (Claude Code Manager)](https://github.com/stravu/crystal):** 多会话智能体管理器，Git 工作树集成，差异/合并查看器。非常适合多解决方案原型开发。
+- **[Crystal (Claude Code Manager)](https://github.com/stravu/crystal):** 历史上的 Claude/Codex 会话与 worktree 管理器；2026 年 2 月弃用，后继项目为 [Nimbalyst](https://github.com/nimbalyst/nimbalyst)。
 - **[Void](https://voideditor.com/):** 开源 Cursor 替代品，检查点可视化，支持任何模型/本地托管的智能体 AI，注重企业隐私。
 - **[IntelliJ IDEA AI](https://www.jetbrains.com/idea/):** 企业级主流 Java IDE，原生 AI 补全，大型项目代码导航。
 
 ## 💻 终端 AI 编程助手
 
 - **[Claude Code](https://claude.ai/code):** 具备全代码库感知，可在终端、IDE 和后台任务场景中执行智能体编辑/测试/PR 流程。Dynamic workflows 可规划大型任务、运行并行 subagents，并在汇报前验证输出。
-- **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** 谷歌命令行旗舰产品，100万上下文，多模态聊天和强大的 Shell 脚本自动化。
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli):** 谷歌的开源终端智能体，支持代码库探索、文件编辑、Shell 执行和 MCP 集成。
 - **[Aider](https://aider.chat/):** 终端 Git 集成的结对编程工具，高 Swe-bench 分数，专注于补丁和智能代码导航。
 - **[Cosine CLI](https://cosine.sh/cli):** 终端中的自主 AI 工程师，具备完整的本地工具访问能力。能够像真实开发者一样规划、编写、测试和迭代。具备终端和网页之间的跨平台连续性，在真实环境中运行，可访问本地文件、构建和测试。无需切换上下文。
-- **[Goose](https://github.com/Squadrick/goose):** 可扩展的开源 CLI 智能体，插件架构，多模型支持，适合分布式代码工作流。
+- **[Goose](https://github.com/aaif-goose/goose):** 开源本地智能体，提供桌面端、CLI 和 API，支持多模型服务与 MCP 扩展，可编辑、执行和测试代码。隶属 Linux Foundation 的 Agentic AI Foundation。
 - **[Kode](https://github.com/shareAI-lab/Kode):** 开源多模型 CLI 智能体，支持 GLM、Qwen、Kimi、DeepSeek 等。具备真正的多模型协作能力，智能任务分配、专家模型咨询（AskExpertModel 工具）和并行子代理处理。Tab 键快速切换模型，灵活分配不同用途的模型（主要、任务、推理、快速）。
 - **[Factory CLI](https://factory.ai/product/ide):** 面向终端和 IDE 的 AI Droids，支持多模型（Claude、GPT、Gemini）。具备可调节的自主性级别、百万行代码库的智能搜索和跨平台上下文记忆。原生支持 VS Code、JetBrains、Vim 等，具备企业级安全性。
-- **[OpenCode](https://github.com/opencodeinterpret/opencode):** 原生终端智能体，支持 LSP 和数十种 LLM。适合多语言项目和多模型集成。
-- **[Warp](https://www.warp.dev/):** AI 驱动的终端，自然语言命令和智能自动补全。
+- **[OpenCode](https://github.com/anomalyco/opencode):** 开源编程智能体，提供终端、桌面和 IDE 界面，支持 LSP 与多种模型服务。
+- **[Warp](https://github.com/warpdotdev/warp):** 智能体终端，包含内置编程 Agent，也可运行外部 Claude Code、Codex 等 CLI。客户端现已开源，可选服务另有条款。
 - **[Codex CLI](https://openai.com/index/openai-codex/):** OpenAI 官方工具，轻量快速的终端代码生成。
 - **[GitHub Copilot CLI](https://github.com/features/copilot/cli):** GitHub 的终端原生编码智能体，支持 `/plan`、后台委派、MCP/plugins/skills 与跨会话记忆。可直接从 issue 走到 PR，不用离开 shell。
 - **[Crush](https://github.com/charmbracelet/crush):** Charmbracelet 的智能体，多模型和 LSP，高度可定制的终端编码。
@@ -61,6 +65,9 @@
 - **[Qoder CLI](https://qoder.com/cli):** Qoder 的命令行版本，将智能代码生成和 AI 编程辅助带到终端，支持多语言和智能重构功能。
 - **[qwen-code](https://github.com/QwenLM/qwen-code):** 阿里云开发的终端编程智能体，生活在数字世界中。具备全代码库感知、OAuth 认证、多模型支持和强大的代码理解能力。支持代码生成、调试和重构，拥有 100 万上下文窗口和视觉模型集成。
 - **[Auggie](https://augmentcode.com/cli):** Augment Code 的命令行版本，将企业级AI编程辅助带到终端，具有大上下文窗口和法规遵从性功能。
+- **[Pi](https://pi.dev/):** 开源终端编程 harness，支持多种模型服务、树状会话历史，以及扩展、skills 和提示词模板。提供交互、print/JSON、RPC 和 SDK 使用方式。
+- **[Kiro CLI](https://kiro.dev/docs/cli/):** 用于构建、测试和部署应用的终端智能体，提供交互与 headless 模式及 ACP 集成。本地 V3 会话支持主动开启记忆，与同机 Kiro IDE 共享上下文。
+- **[Rovo Dev CLI](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/):** Atlassian 的终端编程智能体，集成 Jira/Confluence 上下文，支持规划、会话恢复、项目记忆、Git worktree 模式和 MCP。
 
 ## 🔌 VS Code 扩展插件
 
@@ -100,12 +107,13 @@
 - **[Replit](https://replit.com/):** 多智能体工作空间，自然语言生成，多用户协作。
 - **[Jules (Google)](https://jules.google/):** 自动化拉取请求，CI/CD 和代码修复集成。
 - **[Open SWE (LangGraph)](https://swe.langchain.com/):** 开源企业智能体平台，工作流可定制性。
-- **[OpenHands](https://github.com/OpenHands/OpenHands):** 开源、可自托管的 AI 软件开发者平台，前身为 OpenDevin。Agents 可以编辑代码、运行命令、浏览网页，并通过 Web、CLI 和企业部署选项端到端处理软件任务。
+- **[OpenHands / Agent Canvas](https://github.com/OpenHands/OpenHands):** 可自托管的 Agent 控制中心，支持 OpenHands 与外部 Claude Code、Codex、Pi、OpenCode、ACP Agent，以及本地/Docker/远程后端和定时、事件驱动的自动化。
 - **[Coder Agents](https://coder.com/blog/introducing-coder-agents):** 内置在 Coder control plane 中的自托管、模型无关 coding agents。集中管理模型、提示词、工作区、用量、MCP、skills、subagents 和后台执行，可运行在客户自有基础设施上。
 - **[UiPath for Coding Agents](https://www.uipath.com/developers/coding-agents):** 面向 Claude Code、Codex、Gemini CLI、Cursor 等 coding agents 的企业自动化平台层。让 agents 构建、审查、测试和治理 UiPath 自动化，并接入 RBAC、审计和策略控制。
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer/):** AWS 原生编码智能体，IDE 集成，云/服务支持。
 - **[IBM CodeAssist](https://www.ibm.com/products/watsonx-code-assistant):** AI 驱动的大型机开发者自动化，为受监管行业量身定制。
 - **[Tabnine Enterprise](https://www.tabnine.com/):** 私有云，大型团队的合规/安全。
+- **[GitHub Copilot app](https://github.com/features/ai/github-app):** 桌面智能体工作区，支持隔离 worktree、差异审查、浏览器预览和可重复执行的自动化。会话可交接到 VS Code，保留对话、代码变更和工作树。
 
 ## 🔧 专业工具
 
@@ -114,12 +122,45 @@
 - **[Umami](https://umami.is/):** AI 驱动的前端优化/性能分析。
 - **[TraceRoot AI](https://traceroot.ai/):** 错误定位和补丁建议，自动根因分析。
 - **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** 稳定版 Chrome DevTools MCP server、CLI 和 agent skills，让 coding agents 检查真实浏览器状态、调试运行时问题、模拟用户，并在发布前运行 Lighthouse 审计。
-- **[Agent QA](https://github.com/vostride/agent-qa)：** 面向自然语言 Web 与移动应用测试的源码可用 CLI 和 MCP 工具，支持执行记忆与界面适配。采用 FSL-1.1-ALv2 许可证，每个版本发布两年后转换为 Apache-2.0。
+- **[agent-browser](https://github.com/vercel-labs/agent-browser):** Vercel Labs 的 AI 智能体浏览器自动化 CLI，通过无障碍树快照和元素引用执行导航、表单操作、截图与浏览器验收。
+- **[Playwright CLI](https://github.com/microsoft/playwright-cli):** 微软的浏览器自动化 CLI，提供编程智能体 skills、具名浏览器会话、截图和测试代码生成，用于验证真实应用流程。
+- **[agent-qa](https://github.com/vostride/agent-qa)：** 支持自我改进的自然语言 Web、Android 与 iOS 测试工具，提供先进的 memidex 记忆引擎、CLI 和 MCP 工具。采用 FSL-1.1-ALv2 许可证。
+- **[CodeRabbit](https://www.coderabbit.ai/):** AI PR 审查工具，识别潜在缺陷并提供代码建议，通过团队审查控制辅助交付智能体生成的改动。
+- **[Greptile](https://www.greptile.com/):** AI 代码审查智能体，索引仓库文件、函数和依赖，结合变更行之外的代码与团队自定义上下文评估 PR。
 - **[Blitz](https://blitzjs.com/):** Next.js 原生 AI 插件，快速前端开发。
 - **[BlackBox AI](https://blackbox.ai/):** 代码补全加安全扫描一体化。
 - **[ColDeco](https://coldeco.ai/):** 可视化 AI 生成的代码检查和审查。
 - **[IntelliDev](https://intellidev.ai/):** ML 驱动的终端工作流助手，用于开发/日志/任务。
 
+
+<a id="agent-workbenches"></a>
+## 🖥️ Agent 工作台与远程控制
+
+涵盖本机 CLI 工作区、任务控制台和手机桥接。详见 [60 个项目的功能对照](docs/agent-workspaces_zh.md)，包含注明日期的 GitHub 星数、Agent/模型切换、手机可用性、许可和维护状态；配置同步本身不代表手机遥控。
+
+- **[Orca](https://github.com/stablyai/orca):** 多 CLI 开发工作台，集成独立 worktree、SSH、diff 审查、浏览器与 iOS/Android 伴侣；结构化聊天和手机端仍为实验性/beta。
+- **[AionUI](https://github.com/iOfficeAI/AionUi):** 通过 ACP 或适配器发现已装 CLI 的桌面/WebUI Cowork 应用，支持选模型与消息渠道远控；独立会话不代表跨 Agent 上下文移交。
+- **[T3 Code](https://github.com/pingdotgg/t3code):** 通过桌面/Web/手机控制已装 CLI，复用已有订阅；已发布的跨 Provider 接力保留应用线程，移交预算内的对话上下文。
+- **[Multica](https://github.com/multica-ai/multica):** 桌面自动检测本机 CLI 运行时，提供 issue 派发、小队、运行记录与审查。源码可见、许可有附加限制；iOS 当前需从源码构建。
+- **[Paseo](https://github.com/getpaseo/paseo):** 自动发现原生 CLI Provider 的桌面/手机多主机工作台；换 Provider 接力会创建新 Agent，可选第三方历史转换插件。
+- **[Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator):** 本机 CLI 检测、worktree、任务、审查和 iOS/Android 控制；v0.14.6 已发布空闲本地会话的 Agent/模型切换，历史移交受预算限制。
+- **[Superset](https://github.com/superset-sh/superset):** CLI Agent IDE，提供 worktree、终端、审查、预览与新会话接力。macOS 为主，iPhone/iPad 需 Pro；采用 Elastic License 2.0。
+- **[CloudCLI / Claude Code UI](https://github.com/siteboon/claudecodeui):** Claude、Codex、Cursor、OpenCode 的自托管 Web/PWA，提供自动会话发现、聊天、终端、文件和 Git 工具。
+- **[Happy](https://github.com/slopus/happy):** 复用订阅、可配置原生执行引擎的桌面/手机 Agent 工作台；默认使用自有 Agent 循环，不兼容切换通过上下文交接完成。
+- **[Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio):** 本机多 CLI 桌面/Web 工作台，支持自动检测、复用原生配置和 App relay；BUSL-1.1，商业用途有限制。
+- **[Omnigent](https://github.com/omnigent-ai/omnigent):** 多 harness CLI 运行时，支持共享会话、UI、会话内选模型，以及终端/浏览器/手机访问；原生终端 wrapper 不支持 Windows。
+- **[Emdash](https://github.com/generalaction/emdash):** 跨平台工作台，检测已装 CLI，集成并行 worktree、聊天/终端视图、审查和 SSH 开发。
+- **[Nimbalyst](https://github.com/nimbalyst/nimbalyst):** Crystal 的后继项目，提供 Claude/Codex 可视化工作区、并行会话、worktree、文档/代码编辑、审查与 iPhone/iPad 控制。
+- **[bb](https://github.com/get-bb/bb):** 多 CLI IDE，支持共享服务器、执行主机、Web/桌面访问和 Android alpha；换 Provider 会在同工作区创建引用旧 thread 的新 thread。
+- **[CodePilot](https://github.com/op7418/CodePilot):** Claude/Codex 运行时、多 API Provider 与消息平台桥接；聊天首次执行后锁定运行时。BUSL-1.1。
+- **[HAPI](https://github.com/tiann/hapi):** CLI wrapper 与自托管 Web/PWA/Telegram 会话控制；支持 Claude/Codex 模型控制，具体限制依运行时而定。
+- **[Happier](https://github.com/happier-dev/happier):** 已装 CLI 发现与加密的桌面/Web/手机控制；文档中的同会话跨 Agent 接力尚未进入发布版。
+- **[Antumi](https://github.com/flyhero/antumi):** 本地优先 CLI 工作台，提供 Agent/模型切换、可见历史交接、任务、worktree、额度和定时；未见已文档化手机端。
+- **[Herdr](https://github.com/herdrdev/herdr):** 持久化终端运行时，识别运行中 Agent，支持会话恢复、SSH 与 Agent 消息；进程识别与扫描已装 CLI 不同。
+- **[cmux](https://github.com/manaflow-ai/cmux):** 原生 macOS 终端工作区，包含 Agent 通知、浏览器与自动化 API；iOS 为付费 beta，服务器目录与客户端采用不同许可。
+- **[cc-connect](https://github.com/chenhg5/cc-connect):** 将已装编程 CLI 接入微信、飞书、Telegram、Slack 等消息平台；切会话/API Provider 的命令不代表跨 CLI 上下文迁移。
+- **[VibeTunnel](https://github.com/amantus-ai/vibetunnel):** 通过浏览器和手机控制已有终端会话及编程 CLI；定位为终端桥接，不是结构化跨 Agent 聊天工作台。
+- **[CC Switch](https://github.com/farion1231/cc-switch):** 桌面 CLI/Provider 配置、安装、MCP、Skills、用量与会话工具；是配套配置管理器，不是统一对话运行时。
 
 <a id="cli-workflow-systems"></a>
 ## 🧰 CLI 工作流系统与增强套件
@@ -137,6 +178,7 @@
 
 - **[obra/superpowers](https://github.com/obra/superpowers)：** 一个真正有效的智能体技能框架与软件开发方法论。
 - **[github/spec-kit](https://github.com/github/spec-kit)：** 帮助你快速开始规格驱动开发（Spec-Driven Development）的工具包。
+- **[awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows):** AI-Driven Development Life Cycle 工作流，通过持久状态和人工审批节点串联需求、决策、实现、测试与运维。支持 Kiro、Claude Code、Codex、Cursor、OpenCode、GitHub Copilot 等编程智能体。
 - **[bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)：** 敏捷 AI 驱动开发的突破性方法。
 - **[gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)：** 由 TACHES 打造的轻量而强大的元提示、上下文工程与规格驱动开发系统，适用于 Claude Code。
 - **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)：** 面向 AI 编码助手的规格驱动开发（SDD）。
@@ -155,7 +197,7 @@
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)：** 面向 Claude Code、Codex、Opencode、Cursor 等的智能体编排与性能优化系统，涵盖 skills、memory、安全与研究优先开发。
 - **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)：** 把完整 AI agency 带到你手边：从前端专家到社区运营、从创意注入到现实校验，每个智能体都有明确人格、流程与交付物。
 - **[wshobson/agents](https://github.com/wshobson/agents)：** 面向 Claude Code 的智能自动化与多智能体编排。
-- **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)：** 面向零人工公司的开源编排系统。
+- **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)：** 可自托管的 Agent 团队控制台，提供角色、任务、预算、审批、定时和本机 Claude/Codex adapters；Agent 聊天仍为实验性。
 - **[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)：** 面向 Claude Code 的多智能体编排系统，支持 Autopilot、Ultrapilot、Swarm、Pipeline、Ecomode 五种执行模式，并内置大量 skills 与专用 agents。
 - **[fengshao1227/ccg-workflow](https://github.com/fengshao1227/ccg-workflow)：** 多模型协作开发系统：Claude 负责编排，Codex 负责后端，Gemini 负责前端，提供一键安装与覆盖全流程的命令集。
 - **[stellarlinkco/myclaude](https://github.com/stellarlinkco/myclaude)：** 多智能体编排工作流系统，支持 Claude Code、Codex、Gemini 与 OpenCode。
@@ -170,7 +212,7 @@
 ## 🗂️ 任务、记忆与工作区管理
 
 - **[eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)：** 可嵌入 Cursor、Lovable、Windsurf、Roo 等环境的 AI 任务管理系统。
-- **[BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)：** 让 Claude Code、Codex 或任何编码代理发挥 10 倍效率。
+- **[BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)：** 多 Agent 任务/worktree/审查工作台；公司于 2026 年 4 月宣布关闭，转社区/本地形态继续，旧托管远程服务退出。
 - **[steveyegge/beads](https://github.com/steveyegge/beads)：** 为编码代理提供记忆增强。
 - **[steveyegge/gastown](https://github.com/steveyegge/gastown)：** Gas Town：多智能体工作区管理器。
 - **[snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks)：** 一个用于管理 AI 开发智能体的简洁任务管理系统。
@@ -179,6 +221,7 @@
 ## 🧩 Skills、上下文工程与 Agent 套件
 
 - **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：** 精选的 Claude Skills、资源与工具清单，用于定制 Claude AI 工作流。
+- **[Context7](https://github.com/upstash/context7):** Upstash 的文档上下文工具，通过 CLI + Skills 或 MCP，为编程智能体获取最新、版本对应的库文档与示例。
 - **[muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)：** 面向上下文工程、多智能体架构与生产级智能体系统的综合 Agent Skills 集合。
 - **[garrytan/gstack](https://github.com/garrytan/gstack)：** 复现 Garry Tan 当前的 Claude Code 配置：15 个带强观点的工具，分别扮演 CEO、设计师、工程经理、发布经理、文档工程师和 QA。
 - **[Vercel Plugin for Coding Agents](https://vercel.com/changelog/introducing-vercel-plugin-for-coding-agents)：** 面向 Claude Code 和 Cursor 的官方上下文插件，实时注入 Vercel 平台知识。内置 47+ skills、专用 agents、slash commands 和 post-tool 校验。
@@ -198,6 +241,20 @@
 ## 🕰️ 历史 / 不可用工作流参考
 
 - **zengruifeng56-del/auto-dev-scheduler：** 与 OpenSpec 深度绑定的 AI 并发自动调度工具。该仓库在 2026 年 3 月 22 日检查时已无法在 GitHub 访问，因此这里仅作为历史参考保留。
+
+
+<a id="recent-reading"></a>
+## 📚 近期文章与实践指南
+
+以下均为官方来源，按发布日期倒序排列。补充进工具清单的既有项目不代表近期刚发布。
+
+| 发布日期 | 文章 | 实践价值 |
+| --- | --- | --- |
+| 2026-10-20 | [Introducing memory in Kiro IDE and CLI](https://kiro.dev/blog/memory-in-ide-cli/) | 主动开启本地记忆后，同机 Kiro IDE 与本地 V3 CLI 会话可共享偏好和仓库知识。 |
+| 2026-10-19 | [How to continue a GitHub Copilot app session in VS Code](https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/) | 将同一对话和 worktree 交接到编辑器，继续检查、测试和修改智能体产物。 |
+| 2026-10-16 | [Cloud Agent Canvases and Environment Improvements](https://cursor.com/changelog/cloud-agent-canvases-and-environments) | 云端智能体可生成可分享的交互画布；beta 版 Environments API 用于管理执行环境。 |
+| 2026-10-14 | [Local sandboxing in Kiro: keep agent commands within boundaries](https://kiro.dev/blog/local-sandboxing/) | 主动开启操作系统沙箱，限制命令对本地资源的访问，同时保留审批控制。 |
+| 2026-10-05 | [ReviewBench: An open benchmark for AI code review](https://github.blog/ai-and-ml/reviewbench-an-open-benchmark-for-ai-code-review/) | 研究预览版审查基准，提供公开 PR、标注缺陷、评估工具及 precision/recall 指标，用于比较审查智能体。 |
 
 
 ## 🤝 贡献指南

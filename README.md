@@ -6,6 +6,8 @@
 
 > A curated list of vibe coding plugins, IDEs, development tools, and workflow systems that enhance programming productivity through artificial intelligence.
 
+**Research refresh: 2026-10-25.** Recent reading covers September 25–October 25, 2026; catalog additions also fill earlier gaps. Updated entries are checked against official documentation and repositories.
+
 ## 📋 Table of Contents
 
 - [AI-Enhanced IDEs & Editors](#ai-enhanced-ides--editors)
@@ -14,6 +16,7 @@
 - [Web-Based Development Platforms](#web-based-development-platforms)
 - [Enterprise & Platform Solutions](#enterprise--platform-solutions)
 - [Specialized Tools](#specialized-tools)
+- [Agent Workbenches & Remote Control](#agent-workbenches)
 - [CLI Workflow Systems & Agent Enhancers](#cli-workflow-systems)
 - [Workflow Systems & Spec-Driven Development](#workflow-systems)
 - [Multi-Agent Orchestration & Collaboration](#multi-agent-orchestration)
@@ -21,14 +24,15 @@
 - [Skills, Context Engineering & Agent Packs](#skills-context-packs)
 - [Visual Workflow Tooling](#visual-workflow-tooling)
 - [Historical / Unavailable Workflow References](#historical-workflow-references)
+- [Recent Articles & Practical Guides](#recent-reading)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## 🚀 AI-Enhanced IDEs & Editors
 
-- **[Cursor](https://cursor.com/):** AI-first coding editor and agent platform with code-aware chat, Composer, cloud/background agents, automations, Jira handoff, shared canvases, and `/loop` for local long-running agents.
+- **[Cursor](https://cursor.com/):** AI coding editor and agent platform with local/cloud agents, automations, and interactive cloud-agent canvases. The iOS app can monitor and control local agents while the host computer stays online; an Environments API is available in beta.
 - **[Windsurf](https://windsurf.codeium.com/):** Multi-IDE support from Codeium, with "Cascade Flow" agents for multi-step automation, live preview for UI, and robust team collaboration. Especially useful for fast prototyping, but often loses context in large projects.
-- **[Kiro](https://kiro.dev/):** AWS experimental IDE with spec-driven scaffolding for microservices and cloud-native solutions, making end-to-end development and deployment frictionless.
+- **[Kiro](https://kiro.dev/):** AWS spec-driven IDE with requirements/design/task workflows, agent hooks, and opt-in local command sandboxing. Optional local memory carries repository conventions and working preferences between the IDE and local V3 CLI sessions on the same machine.
 - **[Google Antigravity](https://antigravity.google/):** Google's agent-first development platform with Antigravity 2.0 desktop app, CLI, and SDK. Orchestrates parallel agents, dynamic subagents, scheduled tasks, and integrations across AI Studio, Android, and Firebase.
 - **[CodeBuddy (Tencent Cloud)](https://cloud.tencent.com/product/codebuddy):** AI-driven IDE for automated frontend/backend/database generation, integrated with multiple LLM choices and Figma-to-code capabilities.
 - **[Trae](https://trae.ai/):** ByteDance automated builder, syncs Figma design to code, and specializes in low-code prototyping for small teams.
@@ -36,7 +40,7 @@
 - **[Lingma (Tongyi Lingma)](https://tongyi.aliyun.com/lingma):** Alibaba's flagship code assistant, supports Chinese/English, major IDEs and standalone operation.
 - **[Comate (Baidu)](https://comate.baidu.com/):** Multi-lingual, 50% real adoption, supports all major IDEs and plugins, end-to-end developer automation.
 - **[Qoder](https://qoder.ai/):** Intelligent code generation and programming assistant with support for multiple programming languages, offering code completion, error detection, and smart refactoring capabilities.
-- **[Crystal (Claude Code Manager)](https://github.com/stravu/crystal):** Multi-session agent manager, Git worktree integration, Diff/merge viewer. Perfect for multi-solution prototyping.
+- **[Crystal (Claude Code Manager)](https://github.com/stravu/crystal):** Historical Claude/Codex session and worktree manager; deprecated in February 2026 in favor of [Nimbalyst](https://github.com/nimbalyst/nimbalyst).
 - **[Void](https://voideditor.com/):** Open-source Cursor alternative, checkpoint visualization, agentic AI with any model/local hosting, privacy-focused for enterprise use.
 - **[IntelliJ IDEA AI](https://www.jetbrains.com/idea/):** Enterprise mainstream Java IDE with native AI completion, code navigation for massive projects.
 
@@ -44,14 +48,14 @@
 ## 💻 Terminal-Based AI Agents
 
 - **[Claude Code](https://claude.ai/code):** Full-codebase awareness and agentic edit/test/PR workflows across terminal, IDE, and background task surfaces. Dynamic workflows let it plan large tasks, run parallel subagents, and verify outputs before reporting back.
-- **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** Google command-line flagship, 1M context, multimodal chat and robust Shell scripting automation.
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli):** Google's open-source terminal agent with codebase exploration, file editing, shell execution, and MCP integrations.
 - **[Aider](https://aider.chat/):** Terminal Git-integrated pair programmer, high Swe-bench scores, focused on patching and smart code navigation.
 - **[Cosine CLI](https://cosine.sh/cli):** Autonomous AI engineer in your terminal with full local tool access. Plans, writes, tests, and iterates like a real developer. Features cross-surface continuity between terminal and web, runs in your actual environment with access to local files, builds, and tests. No context switching required.
-- **[Goose](https://github.com/Squadrick/goose):** Extensible open-source CLI agent, plugin architecture, multi-model support, ideal for distributed code workflows.
+- **[Goose](https://github.com/aaif-goose/goose):** Open-source local agent with desktop, CLI, and API interfaces, multiple model providers, and MCP extensions for editing, executing, and testing code. Part of the Linux Foundation's Agentic AI Foundation.
 - **[Kode](https://github.com/shareAI-lab/Kode):** Open-source multi-model CLI agent supporting GLM, Qwen, Kimi, DeepSeek, and more. Features true multi-model collaboration with intelligent task distribution, expert model consultation (AskExpertModel tool), and parallel subagent processing. Tab key quick model switching and flexible model allocation for different purposes (main, task, reasoning, quick).
 - **[Factory CLI](https://factory.ai/product/ide):** AI Droids for terminal and IDE with multi-model support (Claude, GPT, Gemini). Features adjustable autonomy levels, agentic search for million-line codebases, and cross-platform context memory. Works natively in VS Code, JetBrains, Vim, and more with enterprise-grade security.
-- **[OpenCode](https://github.com/opencodeinterpret/opencode):** Native terminal agent with LSP and dozens of LLMs. Suitable for polyglot projects and multi-model integration.
-- **[Warp](https://www.warp.dev/):** AI-powered terminal, natural language commands and smart autocompletion.
+- **[OpenCode](https://github.com/anomalyco/opencode):** Open-source coding agent with terminal, desktop, and IDE interfaces, LSP support, and multiple model providers.
+- **[Warp](https://github.com/warpdotdev/warp):** Agentic terminal with a built-in coding agent and support for external Claude Code, Codex, and other CLI agents. The client is now open source; optional services have separate terms.
 - **[Codex CLI](https://openai.com/index/openai-codex/):** OpenAI's official tool, lightweight and fast terminal-based codegen.
 - **[GitHub Copilot CLI](https://github.com/features/copilot/cli):** Terminal-native GitHub coding agent with `/plan`, background delegation, MCP/plugins/skills, and cross-session memory. Designed to move from issues to pull requests without leaving the shell.
 - **[Crush](https://github.com/charmbracelet/crush):** Charmbracelet's agent, multi-model and LSP, highly customizable terminal-based coding.
@@ -62,6 +66,9 @@
 - **[Qoder CLI](https://qoder.com/cli):** Command-line version of Qoder, bringing intelligent code generation and AI programming assistance to the terminal with multi-language support and smart refactoring capabilities.
 - **[qwen-code](https://github.com/QwenLM/qwen-code):** Terminal-based coding agent from Alibaba Cloud that lives in the digital world. Features full codebase awareness, OAuth authentication, multi-model support, and strong code understanding capabilities. Supports code generation, debugging, and refactoring with 1M context window and vision model integration.
 - **[Auggie](https://augmentcode.com/cli):** Command-line version of Augment Code, bringing enterprise-grade AI coding assistance to the terminal with large context windows and regulatory compliance features.
+- **[Pi](https://pi.dev/):** Open-source terminal coding harness with multiple model providers, tree-structured sessions, and extensions, skills, and prompt templates. Supports interactive, print/JSON, RPC, and SDK use.
+- **[Kiro CLI](https://kiro.dev/docs/cli/):** Terminal agent for building, testing, and deploying applications, with interactive and headless modes and ACP integration. Local V3 sessions support opt-in memory shared with Kiro IDE on the same machine.
+- **[Rovo Dev CLI](https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/):** Atlassian's terminal coding agent with Jira/Confluence context, planning, session restoration, project memory, Git worktree mode, and MCP integrations.
 
 
 
@@ -105,12 +112,13 @@
 - **[Replit](https://replit.com/):** Multi-agent workspaces, natural language generation, multi-user collaboration.
 - **[Jules (Google)](https://jules.google/):** Automated pull requests, CI/CD and code repair integration.
 - **[Open SWE (LangGraph)](https://swe.langchain.com/):** Open-source enterprise agent platform, workflow customizability.
-- **[OpenHands](https://github.com/OpenHands/OpenHands):** Open-source, self-hostable AI software developer platform formerly known as OpenDevin. Agents can edit code, run commands, browse, and work through software tasks end-to-end with web, CLI, and enterprise deployment options.
+- **[OpenHands / Agent Canvas](https://github.com/OpenHands/OpenHands):** Self-hosted control center for OpenHands and third-party Claude Code, Codex, Pi, OpenCode, and ACP agents, with local/Docker/remote backends and scheduled or event-driven automations.
 - **[Coder Agents](https://coder.com/blog/introducing-coder-agents):** Self-hosted, model-agnostic coding agents built into the Coder control plane. Provides centralized controls for models, prompts, workspaces, usage, MCP, skills, subagents, and background execution on customer infrastructure.
 - **[UiPath for Coding Agents](https://www.uipath.com/developers/coding-agents):** Enterprise automation platform layer for Claude Code, Codex, Gemini CLI, Cursor, and other coding agents. Lets agents build, review, test, and govern UiPath automations with RBAC, audit, and policy controls.
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer/):** AWS-native coding agent, IDE integration, cloud/service support.
 - **[IBM CodeAssist](https://www.ibm.com/products/watsonx-code-assistant):** AI-powered mainframe developer automation, tailored for regulated industries.
 - **[Tabnine Enterprise](https://www.tabnine.com/):** Private cloud, compliance/security for large teams.
+- **[GitHub Copilot app](https://github.com/features/ai/github-app):** Desktop agent workspace with isolated worktrees, diff review, browser previews, and repeatable automations. Sessions can continue in VS Code with their conversation, changes, and working tree intact.
 
 
 ## 🔧 Specialized Tools
@@ -120,12 +128,45 @@
 - **[Umami](https://umami.is/):** AI-driven frontend optimization/performance analytics.
 - **[TraceRoot AI](https://traceroot.ai/):** Bug location & patch suggestion, automatic root cause.
 - **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** Stable Chrome DevTools MCP server, CLI, and agent skills that let coding agents inspect live browser state, debug runtime issues, emulate users, and run Lighthouse audits before shipping.
-- **[Agent QA](https://github.com/vostride/agent-qa):** Source-available CLI and MCP tool for natural-language web and mobile application tests, with execution memory and UI adaptation. Licensed under FSL-1.1-ALv2, with each release converting to Apache-2.0 after two years.
+- **[agent-browser](https://github.com/vercel-labs/agent-browser):** Vercel Labs' browser automation CLI for AI agents, using accessibility snapshots and element references for navigation, form interaction, screenshots, and browser-based verification.
+- **[Playwright CLI](https://github.com/microsoft/playwright-cli):** Microsoft's browser automation CLI with coding-agent skills, named browser sessions, screenshots, and test-code generation for checking real application flows.
+- **[agent-qa](https://github.com/vostride/agent-qa):** Self-improving natural-language web, Android and iOS testing with advanced memidex memory, a CLI and MCP tools. Licensed under FSL-1.1-ALv2.
+- **[CodeRabbit](https://www.coderabbit.ai/):** AI pull-request reviewer that flags potential defects and offers code suggestions, with review controls for teams shipping agent-generated changes.
+- **[Greptile](https://www.greptile.com/):** AI code-review agent that indexes repository files, functions, and dependencies to assess pull requests beyond the changed lines and apply custom team context.
 - **[Blitz](https://blitzjs.com/):** Native Next.js AI plugin for rapid frontend dev.
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
 
+
+<a id="agent-workbenches"></a>
+## 🖥️ Agent Workbenches & Remote Control
+
+Local CLI workspaces, task consoles, and phone bridges. See the [60-project comparison](docs/agent-workspaces.md) for dated GitHub stars, agent/model switching, mobile availability, licenses, and maintenance status; configuration sync alone is not phone control.
+
+- **[Orca](https://github.com/stablyai/orca):** Multi-CLI development workspace with isolated worktrees, SSH, diff review, browser tooling, and iOS/Android companions; structured chat and mobile remain experimental/beta.
+- **[AionUI](https://github.com/iOfficeAI/AionUi):** Desktop/WebUI cowork app that discovers installed CLI agents through ACP or adapters, with model selection and remote messaging; independent sessions do not imply cross-agent context transfer.
+- **[T3 Code](https://github.com/pingdotgg/t3code):** Desktop/Web/mobile control of installed CLI agents and existing subscriptions; released cross-provider handoffs preserve the app thread and transfer budgeted conversation context.
+- **[Multica](https://github.com/multica-ai/multica):** Desktop auto-detection of local CLI runtimes, issue assignment, squads, run tracking, and review. Source-available with additional license restrictions; iOS currently builds from source.
+- **[Paseo](https://github.com/getpaseo/paseo):** Desktop/mobile multi-host workspace that discovers native CLI providers; provider handoffs start a new agent, with an optional third-party history-conversion plugin.
+- **[Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator):** Local CLI discovery, worktrees, tasks, review, and iOS/Android control; v0.14.6 ships agent/model switching in idle local sessions with bounded history handoff.
+- **[Superset](https://github.com/superset-sh/superset):** CLI-agent IDE with worktrees, terminals, reviews, previews, and new-session handoffs. macOS-first; iPhone/iPad require Pro. Elastic License 2.0.
+- **[CloudCLI / Claude Code UI](https://github.com/siteboon/claudecodeui):** Self-hosted Web/PWA for Claude, Codex, Cursor, and OpenCode, with automatic session discovery, chat, terminal, files, and Git tools.
+- **[Happy](https://github.com/slopus/happy):** Desktop/mobile agent workspace with existing subscriptions and configurable native harnesses; the default engine is its own agent loop and incompatible switches use context handoff.
+- **[Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio):** Local multi-CLI desktop/Web workspace with automatic detection, native configuration reuse, and app relay; BUSL-1.1 with commercial-use restrictions.
+- **[Omnigent](https://github.com/omnigent-ai/omnigent):** Multi-harness CLI runtime with shared sessions, UI, mid-session model selection, and terminal/browser/phone access; native terminal wrappers are not available on Windows.
+- **[Emdash](https://github.com/generalaction/emdash):** Cross-platform workspace that detects installed CLI agents and combines parallel worktrees, chat/terminal views, review, and SSH development.
+- **[Nimbalyst](https://github.com/nimbalyst/nimbalyst):** Crystal's successor: visual Claude/Codex workspace with parallel sessions, worktrees, document/code editors, review, and iPhone/iPad control.
+- **[bb](https://github.com/get-bb/bb):** Multi-CLI IDE with shared servers, execution hosts, Web/desktop access, and Android alpha; provider handoff creates a new thread referencing the old one in the same workspace.
+- **[CodePilot](https://github.com/op7418/CodePilot):** Claude/Codex runtimes, multiple API providers, and messaging bridges; a chat's runtime locks after its first execution. BUSL-1.1.
+- **[HAPI](https://github.com/tiann/hapi):** CLI wrappers and self-hosted session control from Web/PWA/Telegram, including Claude/Codex model controls with runtime-specific restrictions.
+- **[Happier](https://github.com/happier-dev/happier):** Existing-CLI discovery and encrypted desktop/Web/mobile control; its documented same-session cross-agent continuation is not yet in released builds.
+- **[Antumi](https://github.com/flyhero/antumi):** Local-first CLI workspace with agent/model switching, visible-history handoff, tasks, worktrees, quotas, and scheduling; no documented phone client.
+- **[Herdr](https://github.com/herdrdev/herdr):** Persistent terminal runtime with running-agent detection, session restore, SSH, and agent messaging; process detection differs from scanning installed CLIs.
+- **[cmux](https://github.com/manaflow-ai/cmux):** Native macOS terminal workspaces, agent notifications, browser, and automation APIs; iOS is paid beta, and server directories have different licensing from the client.
+- **[cc-connect](https://github.com/chenhg5/cc-connect):** Connects installed coding CLIs to WeChat, Feishu, Telegram, Slack, and other messengers; session/API-provider commands do not establish cross-CLI context migration.
+- **[VibeTunnel](https://github.com/amantus-ai/vibetunnel):** Browser and phone control of existing terminal sessions, including coding CLIs; a terminal bridge rather than a structured cross-agent chat workspace.
+- **[CC Switch](https://github.com/farion1231/cc-switch):** Desktop CLI/provider configuration, installation, MCP, skills, usage, and session tools; a companion configuration manager rather than a unified conversation runtime.
 
 <a id="cli-workflow-systems"></a>
 ## 🧰 CLI Workflow Systems & Agent Enhancers
@@ -143,6 +184,7 @@
 
 - **[obra/superpowers](https://github.com/obra/superpowers):** An agentic skills framework and software development methodology that works.
 - **[github/spec-kit](https://github.com/github/spec-kit):** Toolkit to help you get started with Spec-Driven Development.
+- **[awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows):** AI-Driven Development Life Cycle workflows connecting requirements, decisions, implementation, tests, and operations through persistent state and human approval gates. Supports Kiro, Claude Code, Codex, Cursor, OpenCode, and GitHub Copilot.
 - **[bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD):** Breakthrough Method for Agile AI Driven Development.
 - **[gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done):** A light-weight and powerful meta-prompting, context engineering, and spec-driven development system for Claude Code by TACHES.
 - **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec):** Spec-driven development (SDD) for AI coding assistants.
@@ -161,7 +203,7 @@
 - **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code):** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor, and beyond.
 - **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents):** A complete AI agency at your fingertips, from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers, with specialized experts, processes, and deliverables.
 - **[wshobson/agents](https://github.com/wshobson/agents):** Intelligent automation and multi-agent orchestration for Claude Code.
-- **[paperclipai/paperclip](https://github.com/paperclipai/paperclip):** Open-source orchestration for zero-human companies.
+- **[paperclipai/paperclip](https://github.com/paperclipai/paperclip):** Self-hosted agent-team control plane with roles, tasks, budgets, approvals, scheduling, and local Claude/Codex adapters; agent chat remains experimental.
 - **[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode):** Multi-agent orchestration for Claude Code with Autopilot, Ultrapilot, Swarm, Pipeline, and Ecomode modes, plus many built-in skills and specialized agents.
 - **[fengshao1227/ccg-workflow](https://github.com/fengshao1227/ccg-workflow):** A multi-model collaborative development system with Claude orchestration, Codex backend support, Gemini frontend support, and a full-stack command set.
 - **[stellarlinkco/myclaude](https://github.com/stellarlinkco/myclaude):** Multi-agent orchestration workflow for Claude Code, Codex, Gemini, and OpenCode.
@@ -176,7 +218,7 @@
 ## 🗂️ Task, Memory & Workspace Management
 
 - **[eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master):** An AI-powered task management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
-- **[BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban):** Get 10X more out of Claude Code, Codex, or any coding agent.
+- **[BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban):** Multi-agent task/worktree/review workspace; the company announced shutdown in April 2026, with community/local continuation and retirement of hosted remote services.
 - **[steveyegge/beads](https://github.com/steveyegge/beads):** A memory upgrade for your coding agent.
 - **[steveyegge/gastown](https://github.com/steveyegge/gastown):** Gas Town, a multi-agent workspace manager.
 - **[snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks):** A simple task management system for managing AI dev agents.
@@ -185,6 +227,7 @@
 ## 🧩 Skills, Context Engineering & Agent Packs
 
 - **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills):** A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.
+- **[Context7](https://github.com/upstash/context7):** Upstash's documentation context tool that retrieves current, version-specific library documentation and examples for coding agents through CLI + Skills or MCP.
 - **[muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering):** A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems.
 - **[garrytan/gstack](https://github.com/garrytan/gstack):** Garry Tan's current Claude Code setup with 15 opinionated tools covering CEO, designer, engineering management, release, docs, and QA roles.
 - **[Vercel Plugin for Coding Agents](https://vercel.com/changelog/introducing-vercel-plugin-for-coding-agents):** Official context plugin for Claude Code and Cursor that injects Vercel platform knowledge in real time. Ships 47+ skills, specialist agents, slash commands, and post-tool validation.
@@ -204,6 +247,20 @@
 ## 🕰️ Historical / Unavailable Workflow References
 
 - **zengruifeng56-del/auto-dev-scheduler:** An AI concurrent auto-scheduling tool deeply integrated with OpenSpec. The repository was unavailable on GitHub when checked on March 22, 2026, so it is kept here as a historical reference.
+
+
+<a id="recent-reading"></a>
+## 📚 Recent Articles & Practical Guides
+
+Official sources, ordered by publication date. Older tools added to the catalog are not necessarily new releases.
+
+| Published | Article | Practical takeaway |
+| --- | --- | --- |
+| 2026-10-20 | [Introducing memory in Kiro IDE and CLI](https://kiro.dev/blog/memory-in-ide-cli/) | Opt-in local memory shares preferences and repository knowledge between Kiro IDE and local V3 CLI sessions on the same machine. |
+| 2026-10-19 | [How to continue a GitHub Copilot app session in VS Code](https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/) | Continue the same conversation and worktree in an editor to inspect, test, and revise agent changes. |
+| 2026-10-16 | [Cloud Agent Canvases and Environment Improvements](https://cursor.com/changelog/cloud-agent-canvases-and-environments) | Cloud agents can produce shareable interactive canvases; the beta Environments API manages their execution environments. |
+| 2026-10-14 | [Local sandboxing in Kiro: keep agent commands within boundaries](https://kiro.dev/blog/local-sandboxing/) | Opt-in operating-system sandboxing limits command access to local resources while retaining approval controls. |
+| 2026-10-05 | [ReviewBench: An open benchmark for AI code review](https://github.blog/ai-and-ml/reviewbench-an-open-benchmark-for-ai-code-review/) | Research-preview benchmark with public pull requests, labeled findings, evaluation tooling, and precision/recall metrics for comparing review agents. |
 
 
 ## 🤝 Contributing
