@@ -166,6 +166,7 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[cc-connect](https://github.com/chenhg5/cc-connect):** Connects installed coding CLIs to WeChat, Feishu, Telegram, Slack, and other messengers; session/API-provider commands do not establish cross-CLI context migration.
 - **[VibeTunnel](https://github.com/amantus-ai/vibetunnel):** Browser and phone control of existing terminal sessions, including coding CLIs; a terminal bridge rather than a structured cross-agent chat workspace.
 - **[CC Switch](https://github.com/farion1231/cc-switch):** Desktop CLI/provider configuration, installation, MCP, skills, usage, and session tools; a companion configuration manager rather than a unified conversation runtime.
+- **[Sillage](https://github.com/MarlBurroW/sillage):** Self-hosted mobile-first Web/PWA that drives the installed Claude Code and Codex CLIs; server-side event journal keeps sessions alive across clients, with full-text search over every conversation, an IDE panel (files, editor, diffs, terminal), worktrees, and a task board the agents read through its own MCP server. Single Docker container, MIT.
 
 <a id="cli-workflow-systems"></a>
 ## 🧰 CLI Workflow Systems & Agent Enhancers
