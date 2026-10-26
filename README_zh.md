@@ -99,6 +99,7 @@
 - **[Conductor](https://conductor.build/):** AI 驱动的开发平台，具备自动化代码生成、错误修复和批量重构能力。集成 GitHub、GitLab、AWS CodeCommit、Azure DevOps 和 BitBucket，实现流畅工作流。
 - **[Aura](https://www.aura.build/):** AI 增强的开发平台，提供实时协作、智能代码分析和自动化优化，用于构建高性能应用。
 - **[Verdent](https://www.verdent.ai/):** 基于云的 AI 开发平台，专注于可持续和高效的应用开发，具备 AI 驱动的代码审查和性能优化。
+- **[The Hive Code](https://thehivecode.ai/):** 免费平台：人们发布并支持软件创意，AI 智能体协助构建，每项改动都由人工批准。
 
 ## 🏢 企业级解决方案
 
