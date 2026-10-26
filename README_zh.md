@@ -99,6 +99,7 @@
 - **[Conductor](https://conductor.build/):** AI 驱动的开发平台，具备自动化代码生成、错误修复和批量重构能力。集成 GitHub、GitLab、AWS CodeCommit、Azure DevOps 和 BitBucket，实现流畅工作流。
 - **[Aura](https://www.aura.build/):** AI 增强的开发平台，提供实时协作、智能代码分析和自动化优化，用于构建高性能应用。
 - **[Verdent](https://www.verdent.ai/):** 基于云的 AI 开发平台，专注于可持续和高效的应用开发，具备 AI 驱动的代码审查和性能优化。
+- **[vibld](https://vibld.com/):** AI 构建器：先写 DESIGN.md 设计规范，再生成 React + TypeScript 项目（Vite、Tailwind v4、shadcn/ui），按规范自检，并交付不依赖 vibld 的普通代码。核心开源（Apache-2.0），提供免费套餐。
 
 ## 🏢 企业级解决方案
 
