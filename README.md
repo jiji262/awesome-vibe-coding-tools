@@ -103,6 +103,7 @@
 - **[Conductor](https://conductor.build/):** AI-powered development platform with automated code generation, error fixing, and batch refactoring capabilities. Integrates with GitHub, GitLab, AWS CodeCommit, Azure DevOps, and BitBucket for streamlined workflows.
 - **[Aura](https://www.aura.build/):** AI-enhanced development platform offering real-time collaboration, intelligent code analysis, and automated optimization for building high-performance applications.
 - **[Verdent](https://www.verdent.ai/):** Cloud-based AI development platform focused on sustainable and efficient application development with AI-driven code reviews and performance optimization.
+- **[AppWizzy](https://appwizzy.com/):** Browser-based AI app builder with a dedicated development VM, Git integration, and support for PHP, Python, and Node.js stacks.
 
 
 ## 🏢 Enterprise & Platform Solutions
