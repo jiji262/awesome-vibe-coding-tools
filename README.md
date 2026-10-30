@@ -43,6 +43,7 @@
 - **[Crystal (Claude Code Manager)](https://github.com/stravu/crystal):** Historical Claude/Codex session and worktree manager; deprecated in February 2026 in favor of [Nimbalyst](https://github.com/nimbalyst/nimbalyst).
 - **[Void](https://voideditor.com/):** Open-source Cursor alternative, checkpoint visualization, agentic AI with any model/local hosting, privacy-focused for enterprise use.
 - **[IntelliJ IDEA AI](https://www.jetbrains.com/idea/):** Enterprise mainstream Java IDE with native AI completion, code navigation for massive projects.
+- **[Volt](https://getvolt.dev/):** Open-source VS Code-core editor that runs Claude Code, Codex, OpenCode or local models on your own keys, with hunk-by-hunk review of agent edits.
 
 
 ## 💻 Terminal-Based AI Agents
