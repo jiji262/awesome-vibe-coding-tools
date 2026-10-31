@@ -195,6 +195,7 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[papaoloba/spec-based-claude-code](https://github.com/papaoloba/spec-based-claude-code):** Implementation of a Spec-Driven Development workflow in Claude Code using custom slash commands.
 - **[pdoronila/cc-sdd](https://github.com/pdoronila/cc-sdd):** Spec Driven Development Workflow inside Claude Code.
 - **[kellemar/claude-code-specs-generator](https://github.com/kellemar/claude-code-specs-generator):** A documentation and context management system inspired by Amazon's Kiro IDE that generates structured specification documents for Claude Code.
+- **[vlr-code/PayneSDD](https://github.com/vlr-code/PayneSDD):** A drop-in spec-driven operating protocol for AI coding agents: contract-before-code, risk-tiered ceremony (Trivial/Light/Full), a mandatory machine gate that confirms "done", and an independent adversarial review pass.
 
 <a id="multi-agent-orchestration"></a>
 ## 🤖 Multi-Agent Orchestration & Collaboration
