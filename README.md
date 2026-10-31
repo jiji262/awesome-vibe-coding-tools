@@ -234,6 +234,7 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows):** Battle-tested workflows and configurations distilled from heavy Claude Code usage in an AI-native startup context.
 - **[feiskyer/claude-code-settings](https://github.com/feiskyer/claude-code-settings):** Claude Code settings, commands, and agents for vibe coding.
 - **[quboqin/template-agenticide-vibecoding](https://github.com/quboqin/template-agenticide-vibecoding):** A customized Claude Code R&D workflow system and AI team collaboration framework based on spec-driven and test-driven development.
+- **[Loadout](https://loadout-blush.vercel.app):** Free and Pro version-pinned AI coding rule packs for Cursor, Claude Code, Copilot, and AGENTS.md. Made by Anthony Pan. [GitHub](https://github.com/Anthony-Pan/loadout)
 
 <a id="visual-workflow-tooling"></a>
 ## 🛠️ Visual Workflow Tooling
@@ -294,3 +295,4 @@ If you find this list helpful, please consider giving it a star! ⭐
 ---
 
 **Made with ❤️ **
+
