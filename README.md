@@ -212,6 +212,7 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[avivl/claude-007-agents](https://github.com/avivl/claude-007-agents):** A unified AI agent orchestration system featuring dozens of specialized agents across 14 categories for modern software development.
 - **[N1nEmAn/acca](https://github.com/N1nEmAn/acca):** A multi-AI collaborative workflow system that lets Antigravity orchestrate Claude CLI and Codex CLI together.
 - **[williamnie/aegisFlow](https://github.com/williamnie/aegisFlow):** A multi-agent workflow that turns an idea into a full PRD and technical design, then orchestrates local toolchains to build it.
+- **[Orbi](https://orbi.build/?ref=dir-jiji262):** Open-source GitHub delivery loop ([orbi-build/orbi](https://github.com/orbi-build/orbi)): label an Issue `ai-ready`, an agent implements and tests it, opens a PR, a separate AI session reviews it, and it merges after CI.
 
 <a id="task-memory-workspace"></a>
 ## 🗂️ Task, Memory & Workspace Management

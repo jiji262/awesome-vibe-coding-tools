@@ -206,6 +206,7 @@
 - **[avivl/claude-007-agents](https://github.com/avivl/claude-007-agents)：** 统一的 AI 智能体编排系统，涵盖 14 个类别中的数十个专用 agents，用于现代软件开发。
 - **[N1nEmAn/acca](https://github.com/N1nEmAn/acca)：** 多 AI 协作工作流系统，让 Antigravity 编排 Claude CLI 与 Codex CLI 协同工作。
 - **[williamnie/aegisFlow](https://github.com/williamnie/aegisFlow)：** 多智能体工作流：调用本地 CLI 工具，把一个想法转化为完整 PRD 和技术设计，并调度工具进行开发。
+- **[Orbi](https://orbi.build/zh/?ref=dir-jiji262)：** 开源的 GitHub 交付闭环（[orbi-build/orbi](https://github.com/orbi-build/orbi)）：给 Issue 打上 `ai-ready` 标签后，由智能体实现并测试、开 PR，另一个 AI 会话独立评审，CI 通过后合并。
 
 <a id="task-memory-workspace"></a>
 ## 🗂️ 任务、记忆与工作区管理
