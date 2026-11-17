@@ -204,6 +204,7 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[papaoloba/spec-based-claude-code](https://github.com/papaoloba/spec-based-claude-code):** Implementation of a Spec-Driven Development workflow in Claude Code using custom slash commands.
 - **[pdoronila/cc-sdd](https://github.com/pdoronila/cc-sdd):** Spec Driven Development Workflow inside Claude Code.
 - **[kellemar/claude-code-specs-generator](https://github.com/kellemar/claude-code-specs-generator):** A documentation and context management system inspired by Amazon's Kiro IDE that generates structured specification documents for Claude Code.
+- **[seok-jun/adaptive-agentic-sdd](https://github.com/seok-jun/adaptive-agentic-sdd):** Risk-based spec-driven development for Claude Code and Codex on existing codebases, with review depth scaled to each change and human-authorized merges for high-risk work.
 
 <a id="multi-agent-orchestration"></a>
 ## 🤖 Multi-Agent Orchestration & Collaboration
