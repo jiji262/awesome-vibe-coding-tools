@@ -144,6 +144,7 @@
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
 - **[IntelliDev](https://intellidev.ai/):** ML-powered terminal workflow assistant for devs/logs/tasks.
+- **[VibeShield](https://vibe-checker.appwrite.network):** Pre-deploy security scanner, CLI, and MCP server for vibe-coded Next.js, Vite, Cursor, and Lovable web apps, catching leaked client-bundle secrets, open Supabase RLS tables, and missing CSP/HSTS headers.
 
 
 <a id="agent-workbenches"></a>
