@@ -185,6 +185,7 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim):** Slimmed, cleaned, and fine-tuned oh-my-opencode fork that consumes much less tokens.
 - **[agent-sh/agentsys](https://github.com/agent-sh/agentsys):** A system for Claude Code, OpenCode, Codex, Cursor, and Kiro that automates everything around AI coding with plugins, agents, and skills.
 - **[zhukunpenglinyutong/ai-max](https://github.com/zhukunpenglinyutong/ai-max):** A one-click upgrade pack for Claude Code with production-grade agents, skills, hooks, commands, rules, and MCP configuration.
+- **[VibeRaven](https://viberaven.dev/):** Adds project instructions for Claude Code, Codex, and Cursor to check Supabase migrations and replay two-user PostgreSQL races.
 
 <a id="workflow-systems"></a>
 ## 🧠 Workflow Systems & Spec-Driven Development
