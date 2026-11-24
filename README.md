@@ -222,6 +222,8 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[N1nEmAn/acca](https://github.com/N1nEmAn/acca):** A multi-AI collaborative workflow system that lets Antigravity orchestrate Claude CLI and Codex CLI together.
 - **[williamnie/aegisFlow](https://github.com/williamnie/aegisFlow):** A multi-agent workflow that turns an idea into a full PRD and technical design, then orchestrates local toolchains to build it.
 
+- **[Alook](https://alook.ai):** Open-source, local-first group chat where people and local coding agents, including Claude Code, Codex and Cursor, collaborate in shared rooms.
+
 <a id="task-memory-workspace"></a>
 ## 🗂️ Task, Memory & Workspace Management
 
