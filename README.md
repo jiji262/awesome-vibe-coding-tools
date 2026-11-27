@@ -122,6 +122,7 @@
 - **[IBM CodeAssist](https://www.ibm.com/products/watsonx-code-assistant):** AI-powered mainframe developer automation, tailored for regulated industries.
 - **[Tabnine Enterprise](https://www.tabnine.com/):** Private cloud, compliance/security for large teams.
 - **[GitHub Copilot app](https://github.com/features/ai/github-app):** Desktop agent workspace with Copilot Projects for multi-repository parallel agents, Computer Use preview (macOS/Windows), isolated worktrees, self-improving automations, and cross-surface cloud sandboxes.
+- **[Sandscale](https://sandscale.dev/):** Firecracker microVM sandboxes and cloud workspaces for coding agents (Claude Code, Codex, Cursor), driven over a remote MCP server, REST API, SDK or CLI, with policy controls, approvals, DLP, a secrets vault and an audit log.
 
 
 ## 🔧 Specialized Tools
