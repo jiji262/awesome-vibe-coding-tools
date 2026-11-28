@@ -174,6 +174,7 @@ Local CLI workspaces, task consoles, and phone bridges. See the [60-project comp
 - **[cc-connect](https://github.com/chenhg5/cc-connect):** Connects installed coding CLIs to WeChat, Feishu, Telegram, Slack, and other messengers; session/API-provider commands do not establish cross-CLI context migration.
 - **[VibeTunnel](https://github.com/amantus-ai/vibetunnel):** Browser and phone control of existing terminal sessions, including coding CLIs; a terminal bridge rather than a structured cross-agent chat workspace.
 - **[CC Switch](https://github.com/farion1231/cc-switch):** Desktop CLI/provider configuration, installation, MCP, skills, usage, and session tools; a companion configuration manager rather than a unified conversation runtime.
+- **[Lidnight](https://lidnight.app/en/?from=awesome-vibe-coding):** macOS menu bar monitor for Claude Code, Codex and other coding agents with session status, usage limits, stalled-run alerts, and approvals from the menu bar or an end-to-end encrypted phone link; keeps a MacBook awake with the lid closed only while an agent is working. Notarized, Apple Silicon, macOS 13+, no account; free with a one-time Pro upgrade.
 
 <a id="cli-workflow-systems"></a>
 ## 🧰 CLI Workflow Systems & Agent Enhancers
